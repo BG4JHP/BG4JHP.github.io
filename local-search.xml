@@ -4,9 +4,28 @@
   
   
   <entry>
+    <title>问题征集</title>
+    <link href="/mine/"/>
+    <url>/mine/</url>
+    
+    <content type="html"><![CDATA[<p>想到个问题，呼号怎么解决滥用？<br>我打算弄个邮箱，可以和我确认通联信息</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>征询</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>来自BG4JHP的第一篇博客</title>
-    <link href="/hello-template/"/>
-    <url>/hello-template/</url>
+    <link href="/first-post/"/>
+    <url>/first-post/</url>
     
     <content type="html"><![CDATA[<p>我终于拥有自己的无线电呼号啦！<br>也算是一次里程碑了<br>从五月的兴趣到七月拿到执照，时间太快了</p>]]></content>
     
