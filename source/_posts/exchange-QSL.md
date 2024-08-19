@@ -29,5 +29,10 @@ tags: [post]
 [通联换卡](https://ansonsown.feishu.cn/share/base/form/shrcn9n3lK6a8bRkBtcUiGPzGsc)
 ## 等待邮箱信息
 你在收集表中留下了邮箱，我将在确认信息后向你发出我的地址，请按照地址发出
+# 我的QSL卡面
+## 卡1
+![照片均为我拍摄](https://s2.loli.net/2024/08/19/DB6nzcJ5TwGXtRP.png)
+## 卡2
+![照片均为我拍摄](https://s2.loli.net/2024/08/19/m5egyuXj9iRTwbt.png)
 
 -BG4JHP
