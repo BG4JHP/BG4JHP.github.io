@@ -1008,6 +1008,12 @@ links:
       link: "https://anson.fun/",
       avatar: "https://s2.loli.net/2024/03/18/qWmPAHUN2EeKxcr.png"
     }
+    - {
+      title: "BA7NYW的菓子工房",
+      intro: "いらっしゃいませー",
+      link: "https://www.ba7nyw.com/",
+      avatar: "https://www.ba7nyw.com/photos/NTNimage.jpg"
+    }
 
 
   # 当成员头像加载失败时，替换为指定图片
