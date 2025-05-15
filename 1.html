@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://s2.loli.net/2024/07/15/SQCcef2VIvWXqRo.png">
+    <title>BG4JHP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 2em;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1em 0;
+            border-bottom: 1px solid #eaeaea;
+        }
+        header h1 {
+            font-size: 1.5em;
+            margin: 0;
+        }
+        .nav-buttons {
+            display: flex;
+            gap: 2em;
+        }
+        .nav-buttons a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            font-size: 1em;
+        }
+        .language-switcher {
+            margin-left: 2em;
+        }
+        main {
+            margin-top: 2em;
+        }
+        .intro {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2em;
+        }
+        .intro > div {
+            flex: 1;
+        }
+        .intro .profile-picture {
+            text-align: right;
+        }
+        .intro .profile-picture img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .intro .profile-description {
+            font-size: 0.8em;
+            color: #777;
+            margin-top: 0.5em;
+        }
+        .intro .about-me {
+            text-align: left;
+        }
+        .intro h2 {
+            font-size: 2em;
+            margin-bottom: 0.5em;
+        }
+        .intro p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        .contact {
+            margin-top: 2em;
+        }
+        .contact h2 {
+            font-size: 2em;
+            margin-bottom: 0.5em;
+            text-align: center;
+        }
+        .contact-details {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 1em;
+            margin-left: 20%;
+        }
+        .contact-details p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        footer {
+            text-align: center;
+            padding: 2em 0;
+            border-top: 1px solid #eaeaea;
+            margin-top: 2em;
+        }
+        .beian {
+            font-size: 0.8em;
+            color: #777;
+            margin-top: 1em;
+        }
+        .beian a {
+            color: #777;
+            text-decoration: none;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 1em;
+            }
+            .nav-buttons {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 1em;
+            }
+            .nav-buttons a {
+                font-size: 0.9em;
+            }
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            header h1 {
+                margin-bottom: 1em;
+            }
+            .intro {
+                flex-direction: column;
+                align-items: center;
+            }
+            .intro .profile-picture,
+            .intro .about-me {
+                text-align: center;
+                margin: 0;
+            }
+            .contact-details {
+                margin-left: 0;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="container">
+        <h1>B G 4 J H P</h1>
+        <div class="nav-buttons">
+            <a href="https://blog.bg4jhp.cn/">博客</a>
+            <a href="https://forum.hamcq.cn/d/2299">换卡记录</a>
+            <a href="https://www.qrz.com/db/BG4JHP">我的QRZ信息</a>
+            <div class="language-switcher">
+                <a href="">中文</a> | <a href="/en">English</a>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <section class="intro" id="about">
+            <div class="about-me">
+                <h2>早上好/中午好/晚上好</h2>
+                <h2>这里是BG4JHP</h2>
+                <p>欢迎你来到我的网站</p>
+            </div>
+            <div class="profile-picture">
+                <img src="https://s2.loli.net/2024/07/15/zHWhBVrt1cZS8mJ.png" alt="一张图片">
+                <p class="profile-description">我的qsl卡</p>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h2>联系方式</h2>
+            <div class="contact-details">
+                <p>换卡：<a href="https://ansonsown.feishu.cn/share/base/form/shrcnqtMBt3OML569KiaB1clqFg">点击填写</a></p>
+                <p>通联信息确认：<a href="https://ansonsown.feishu.cn/share/base/form/shrcnjTSelcJ2MfnIS9vCMcAlFd">点击填写</a></p>
+                <p>邮箱: <a href="mailto:contact.me@bg4jhp.org">contact.me@bg4jhp.org</a></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Anson</p>
+        <p class="beian"><a href="https://icp.gov.moe/?keyword=20240083" target="_blank">萌ICP备20240083号</a></p>
+    </footer>
+</body>
+</html>
